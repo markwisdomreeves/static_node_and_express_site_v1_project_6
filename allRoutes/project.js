@@ -12,7 +12,7 @@ router.get('/:id', (req, res, next)=> {
     
   const projectName = projects[id].project_name;
 
-  // Deconstuctoring all the project data
+// Deconstucting all the project data here
   const {
     technologies,
     image_urls,

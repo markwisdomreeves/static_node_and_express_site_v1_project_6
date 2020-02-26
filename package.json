@@ -2,9 +2,9 @@
   "name": "static-node-site",
   "version": "1.0.0",
   "description": "static-node-and-express-site-v1-project-- 6",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node script.js",
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
