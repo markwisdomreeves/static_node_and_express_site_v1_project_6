@@ -1,0 +1,57 @@
+{
+    "projects": [
+        {
+            "id":"0",
+            "project_name":"Random User Employee Directory",
+            "description":"An App built to display a randon user from an Api",
+            "technologies":"['HTML5','CSS', 'JAVASCRPT']",
+            "live_link":"https://markwisdomreeves.github.io/ramdom_api_project.github.io/",
+            "github_link":"https://github.com/markwisdomreeves/public_api_request-v1--unit-5-project",
+            "image_urls": [
+                "static/../../public/images/employee_directory_1.png",
+                "static/../../public/images/employee_directory_2.png",
+                "static/../../public/images/employee_directory_3.png"
+            ]
+        },
+        {
+            "id":"1",
+            "project_name":"Pharse Hunter App",
+            "description":"This Game allows user to guest a hidden Pharse",
+            "technologies":"['HTML5','CSS', 'JAVASCRPT']",
+            "live_link":"https://markwisdomreeves.github.io/OOJSgame.github.io/",
+            "github_link":"https://github.com/markwisdomreeves/oopJS_game_v2-_-project_unit-4",
+            "image_urls": [
+                "static/../../public/images/oopjs_game_1.jpg",
+                "static/../../public/images/oopjs_game_2.png",
+                "static/../../public/images/oopjs_game_3.png"
+
+            ]
+        },
+        {
+            "id":"2",
+            "project_name":"User Interactive Form",
+            "description":"Form with live validations for all inputs",
+            "technologies":"['HTML5','CSS', 'jQuery', 'JAVASCRPT']",
+            "live_link":"https://markwisdomreeves.github.io/user_interactive_form.github.io/",
+            "github_link":"https://github.com/markwisdomreeves/-teamtreehouse_unit_3_project",
+            "image_urls": [
+                "static/../../public/images/form_interactive_1.jpg",
+                "static/../../public/images/form_interactive_2.png",
+                "static/../../public/images/form_interactive_3.png"
+            ]
+        },
+        {
+            "id":"3",
+            "project_name":"Pagination Link and Searchable Form",
+            "description":"This App paginate and search for each user",
+            "technologies":"['HTML5','CSS', 'JAVASCRPT']",
+            "live_link":"https://markwisdomreeves.github.io/pagination_search.github.io/#",
+            "github_link":"https://github.com/markwisdomreeves/teamtreehouse-project--2",
+            "image_urls": [
+                "static/../../public/images/pagination_page_1.jpg",
+                "static/../../public/images/pagination_page_2.png",
+                "static/../../public/images/pagination_page_3.png"
+            ]
+        }
+    ]
+}
