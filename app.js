@@ -1,47 +1,41 @@
 
-'use strict';
-
-const express = require('express')
+const express = require('express');
 const app = express();
-const path = require('path');
 
-// locals varibles
-app.locals.jsonData = require('./jsonData/data.json');
+const index = require('./routes/index');
+const about = require('./routes/about');
+const project = require('./routes/project');
 
-// adding all the routes in the app.js
-const index = require('./allRoutes/index');
-const about = require('./allRoutes/about');
-const project = require('./allRoutes/project')
+app.set('view engine', 'pug');
 
-app.set('view engine', 'pug')
-app.use('/static', express.static(path.join(__dirname, 'public')))
+app.use('/static', express.static('public'));
 
-// router-level middleware setup for homepage
 app.use('/', index);
 
-// router-level middleware setup for aboutpage
 app.use('/about', about);
 
-// router-level middleware setup for aboutpage
 app.use('/project', project);
 
-// 404 - page not found error
-app.use(function(req, res, next) {
-    console.error('Ooooh, an error has occurred')
-    new Error('Something went wrong :-(')
-    return res.status(404).send({ message: 'Route'+req.url+'Page Not found.'});
-});
-  
-// 500 - Any server error
-app.use(function(err, req, res, next) {
-    console.error('Wooyoo, server error has occurred');
-    return res.status(500).send({ error: err });
-});
-
-let port = process.env.PORT || 3000;
-app.listen(port, () => {
-    console.log(`Server is listening on post ${port}!`)
+app.use((req, res, next) => {
+    const err = new Error("We are sorry, Page Not found.");
+    err.status = 404;
+    next(err);
 })
+  
+app.use(function(err, req, res, next){
+    res.locals.error = err;
+    res.status(err.status);
+    res.render('error');
+    console.log('Sorry user, internal server error occurred');
+    console.log(err.message);
+    console.log(err.stack);
+    console.log(err.status);   
+})
+
+let PORT = process.env.PORT || 3000;
+const server = app.listen(PORT, () => {
+    console.log(`Server is listening on → PORT ${server.address().port}`);
+});
 
 
 
@@ -89,3 +83,5 @@ app.listen(port, () => {
 //     console.log(err.stack);
 //     res.status(500).send({"" : err.stack});
 // });
+
+// app.use('/static', express.static('public'))

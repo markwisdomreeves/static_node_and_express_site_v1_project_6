@@ -1,16 +1,15 @@
 const express = require('express');
 const router = express.Router();
-
-// get all project from the data.json file
-const projects = require('../jsonData/data.json');
+const { projects } = require('../data/data.json')
 
 // making a get request to the home page
-router.get('/', (req, res, next)=> {
-    res.statusCode = 200;
+router.get('/', (req, res)=> {
     res.render('index', {
         projects
     });
 });
 
 module.exports = router;
+
+
 
