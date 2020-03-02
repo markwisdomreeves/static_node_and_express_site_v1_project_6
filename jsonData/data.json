@@ -1,10 +1,10 @@
 {
     "projects": [
         {
-            "id":"0",
+            "id": 1,
             "project_name":"Employee Directory",
-            "description":"An App built to display a randon user from an Api",
-            "technologies":"['HTML5','CSS', 'JQUERY', 'JAVASCRPT', 'AJAX', 'FETCH API']",
+            "description":"This App is use to display a randon user from a randon user Api",
+            "technologies":["HTML5","CSS3", "JQUERY", "JAVASCRPT", "FETCH API"],
             "live_link":"https://markwisdomreeves.github.io/ramdom_api_project.github.io/",
             "github_link":"https://github.com/markwisdomreeves/public_api_request-v1--unit-5-project",
             "image_urls": [
@@ -15,10 +15,10 @@
             ]
         },
         {
-            "id":"1",
+            "id": 2,
             "project_name":"Pharse Hunter App",
-            "description":"This Game allows user to guest hidden Pharses",
-            "technologies":"['HTML5','CSS', 'JQUERY', 'JAVASCRPT']",
+            "description":"This Game allows a user to guest hidden Pharses from the board",
+            "technologies":["HTML5","CSS3", "JQUERY", "JAVASCRPT(OPP-JS)"],
             "live_link":"https://markwisdomreeves.github.io/OOJSgame.github.io/",
             "github_link":"https://github.com/markwisdomreeves/oopJS_game_v2-_-project_unit-4",
             "image_urls": [
@@ -30,10 +30,10 @@
             ]
         },
         {
-            "id":"2",
+            "id": 3,
             "project_name":"Interactive Form",
-            "description":"Form with live validations for all inputs",
-            "technologies":"['HTML5','CSS', 'jQUERY', 'JAVASCRPT']",
+            "description":"User Info Form with live validations for all inputs",
+            "technologies":["HTML5","CSS3", "JQUERY", "JAVASCRPT"],
             "live_link":"https://markwisdomreeves.github.io/user_interactive_form.github.io/",
             "github_link":"https://github.com/markwisdomreeves/-teamtreehouse_unit_3_project",
             "image_urls": [
@@ -44,10 +44,10 @@
             ]
         },
         {
-            "id":"3",
+            "id": 4,
             "project_name":"User Pagination Page",
-            "description":"This is a pagination links and a search form project",
-            "technologies":"['HTML5','CSS', 'JQUERY', 'JAVASCRPT']",
+            "description":"This project has a pagination links and a search form input",
+            "technologies":["HTML5","CSS3", "JQUERY", "JAVASCRPT"],
             "live_link":"https://markwisdomreeves.github.io/pagination_search.github.io/#",
             "github_link":"https://github.com/markwisdomreeves/teamtreehouse-project--2",
             "image_urls": [

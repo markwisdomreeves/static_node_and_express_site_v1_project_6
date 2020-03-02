@@ -6,6 +6,8 @@ html(class="no-js" lang="en" dir="ltr")
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
     title Portfolio Site
     link(href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800', rel='stylesheet')
+    //- my own google font for styling
+    link(href="https://fonts.googleapis.com/css?family=Lobster|Yeon+Sung&display=swap" rel="stylesheet")
     link(rel='stylesheet', href='/static/css/foundation.css')
     link(rel='stylesheet', href='/static/css/style.css')
   body
@@ -17,14 +19,11 @@ html(class="no-js" lang="en" dir="ltr")
             img.thumbnail(src='/static/images/profile.jpg')
           .cell.auto 
 
-            //- Add your name here.
-            h5 Mark Reeves
+            h6#my-h6 Mark Wisdom Reeves
 
-            //- Add text here to describe who you are, what you do, and why you are so awesome.
             p.text-light
               | I am a Full Stack JavaScript Developer and have two years experience in Web Development and am willing to learn and improve my skils when hired...
 
-            //- Add about page route to the href below. 
             a(href='/about') Learn More →
 
     .off-canvas-content(data-off-canvas-content='')
@@ -32,12 +31,9 @@ html(class="no-js" lang="en" dir="ltr")
         .title-bar-left
           button.menu-icon(type='button', data-toggle='my-info')
 
-          //- Add your name here. This is for the mobile screen sized version.
           span.title-bar-title Mark Wisdom Reeves
       block content
         
-
-      
   script(src='/static/js/vendor/jquery.js')
   script(src='/static/js/vendor/what-input.js')
   script(src='/static/js/vendor/foundation.js')

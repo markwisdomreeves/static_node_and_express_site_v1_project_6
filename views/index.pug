@@ -3,23 +3,21 @@ extends layout.pug
 block content 
   article.grid-container.portfolio-intro
     div
-      h3 To Learn and solve real world problems are my passions.
-      //- Add a title or heading like My Portfolio, or Hey, Potential Employers, or Let's make the web great together! 
-      h4 My Portfolio.
-
-      //- Add a description for your portfolio, what this project is, it's purpose, what it's supposed to accomplish, etc. 
+      h3#my-header To Learn and solve a real world problems are my passions.
+      h4#my-portfolio My Portfolio
       p.lead.text-light
         | In this portfolio I showcased some of my best projects I have built as a Full Stack JavaScript Developer. With these projects, am seeking for a job where I can work and learn new Technologies and to improve my skills as a great Developer.
   article.grid-container.portfolio-index
     
-
     .grid-x.grid-margin-x.small-up-2.medium-up-2.large-up-3
 
       each project in projects
         .cell
-          a(href=`/projects/${project.id}`)
+          a(href=`/project/${project.id}`)
             img.thumbnail(src=`${project.image_urls[0]}`)
-            h5 #{project.project_name}
+            h6 #{project.project_name}
+
+            a#main-link
 
 
       

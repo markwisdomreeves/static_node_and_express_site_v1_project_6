@@ -26,6 +26,53 @@ h1,h2,h3,h4,h5,p{
   border-radius: 5px;
 }
 
+/* my own styles */
+#my-header {
+  font-family: 'Lobster', 'Yeon Sung';
+}
+#my-portfolio {
+  color: blue;
+  font-family: 'Yeon Sung', 'Lobster';
+}
+#my-h6 {
+  letter-spacing: 2px !important;
+  font-family: 'Yeon Sung', 'Lobster';
+}
+#my-btn-error:hover {
+  background-color: brown;
+  color: black;
+  font-family: 'Lobster', 'Yeon Sung';
+  font-size: 1em;
+}
+#about-me-page {
+  font-family: 'Lobster', 'Yeon Sung';
+}
+.about_info {
+  font-family: 'Yeon Sung', 'Lobster';
+  font-size: 1.6em;
+}
+.skills-title {
+  font-family: 'Lobster', 'Yeon Sung';
+  font-size: 1em;
+}
+#projects-contact li {
+  font-family: 'Yeon Sung', 'Lobster';
+  font-size: 1em;
+}
+.projects-name li {
+  font-family: 'Yeon Sung', 'Lobster';
+  font-size: 3em;
+}
+#error-msg {
+  color: red;
+  font-family: 'Yeon Sung', 'Lobster';
+}
+.error-tiltle {
+  font-family: 'Lobster', 'Yeon Sung';
+}
+
+/* End of my own style */
+
 .text-light{
   color: #666;
 }
