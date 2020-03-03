@@ -27,7 +27,11 @@ h1,h2,h3,h4,h5,p{
 }
 
 /* my own styles */
-#my-header {
+.typing {
+  font-size: 0.8em;
+  color: lightblue;
+}
+.my_header {
   font-family: 'Lobster', 'Yeon Sung';
 }
 #my-portfolio {
@@ -37,6 +41,7 @@ h1,h2,h3,h4,h5,p{
 #my-h6 {
   letter-spacing: 2px !important;
   font-family: 'Yeon Sung', 'Lobster';
+  font-size: 1em;
 }
 #my-btn-error:hover {
   background-color: brown;
@@ -71,6 +76,47 @@ h1,h2,h3,h4,h5,p{
   font-family: 'Lobster', 'Yeon Sung';
 }
 
+@media(max-width: 350px) {
+  .my_header {
+    font-size: 9px;
+  }
+}
+@media(max-width: 500px) {
+  .my_header {
+    font-size: 10px;
+  }
+}
+@media(max-width: 600px) {
+  .my_header {
+    font-size: 0.8em;
+  }
+}
+@media(max-width: 800px) {
+  .my_header {
+    font-size: 1em;
+  }
+}
+@media(min-width: 350px) {
+  .paraText_on_small_screen {
+    font-size: 14px;
+  }
+}
+
+@media(min-width: 500px) {
+  .paraText_on_small_screen {
+    font-size: 15px;
+  }
+}
+@media(min-width: 600px) {
+  .paraText_on_small_screen {
+    font-size: 1em;
+  }
+}
+@media(min-width: 800px) {
+  .paraText_on_small_screen {
+    font-size: 1.3em;
+  }
+}
 /* End of my own style */
 
 .text-light{

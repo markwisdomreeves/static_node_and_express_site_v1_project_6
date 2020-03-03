@@ -15,13 +15,16 @@ app.use('/', index);
 app.use('/about', about);
 
 app.use('/project', project);
-  
+
+// 404 error - page not found
 app.use((req, res, next) => {
     const err = new Error("We are sorry, Page Not found.");
+    res.locals.error = err;
     err.status = 404;
     next(err);
 })
 
+// internal server error - 505 server error
 app.use(function(err, req, res, next){
     res.locals.error = err;
     res.status = err.status;

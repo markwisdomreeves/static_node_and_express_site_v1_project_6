@@ -2,20 +2,62 @@
     "projects": [
         {
             "id": 1,
-            "project_name":"Employee Directory",
-            "description":"This App is use to display a randon user from a randon user Api",
-            "technologies":["HTML5","CSS3", "JQUERY", "JAVASCRPT", "FETCH API"],
-            "live_link":"https://markwisdomreeves.github.io/ramdom_api_project.github.io/",
-            "github_link":"https://github.com/markwisdomreeves/public_api_request-v1--unit-5-project",
+            "project_name":"E-commerce phone store",
+            "description":"This is an online phone store Application",
+            "technologies":["REACT.JS", "CSS3", "STYLED COMPONENT"],
+            "live_link":"https://react-e-commerce-app-1.netlify.com/",
+            "github_link":"https://github.com/markwisdomreeves/react-e-commerce-app/tree/ecommerce-app/ecommerce-app",
             "image_urls": [
-                "/static/images/employee_directory1.png",
-                "/static/images/employee_directory2.png",
-                "/static/images/employee_directory3.png",
-                "/static/images/employee_directory4.png"
+                "/static/images/phone_store1.jpg",
+                "/static/images/phone_store2.jpg",
+                "/static/images/phone_store3.jpg",
+                "/static/images/phone_store4.jpg"
             ]
         },
         {
             "id": 2,
+            "project_name":"Interactive Form",
+            "description":"User Info Form with live validations for all inputs",
+            "technologies":["HTML5","CSS3", "JQUERY", "JAVASCRPT"],
+            "live_link":"https://markwisdomreeves.github.io/user_interactive_form.github.io/",
+            "github_link":"https://github.com/markwisdomreeves/-teamtreehouse_unit_3_project",
+            "image_urls": [
+                "/static/images/form1.jpg",
+                "/static/images/form2.jpg",
+                "/static/images/form3.jpg",
+                "/static/images/form4.jpg"
+            ]
+        },
+        {
+            "id": 3,
+            "project_name":"User Pagination Page",
+            "description":"This project has a pagination links and a search form input",
+            "technologies":["HTML5","CSS3", "JQUERY", "JAVASCRPT"],
+            "live_link":"https://markwisdomreeves.github.io/pagination_search.github.io/#",
+            "github_link":"https://github.com/markwisdomreeves/teamtreehouse-project--2",
+            "image_urls": [
+                "/static/images/pagination1.png",
+                "/static/images/pagination2.png",
+                "/static/images/pagination3.png",
+                "/static/images/pagination4.jpg"
+            ]
+        },
+        {
+            "id": 4,
+            "project_name":"Cake Filter App",
+            "description":"This is an online cake shopping app template that allows you to Filter out a particular cake items in a list cakes",
+            "technologies":["HTML5", "CSS3", "JAVASCRPT"],
+            "live_link":"https://markwisdomreeves.github.io/filter-sweet-project.github.io/#",
+            "github_link":"https://github.com/markwisdomreeves/filter-sweet-project.github.io",
+            "image_urls": [
+                "/static/images/cake_app1.jpg",
+                "/static/images/cake_app2.jpg",
+                "/static/images/cake_app3.jpg",
+                "/static/images/cake_app4.jpg"
+            ]
+        },
+        {
+            "id": 5,
             "project_name":"Pharse Hunter App",
             "description":"This Game allows a user to guest hidden Pharses from the board",
             "technologies":["HTML5","CSS3", "JQUERY", "JAVASCRPT(OPP-JS)"],
@@ -30,32 +72,18 @@
             ]
         },
         {
-            "id": 3,
-            "project_name":"Interactive Form",
-            "description":"User Info Form with live validations for all inputs",
-            "technologies":["HTML5","CSS3", "JQUERY", "JAVASCRPT"],
-            "live_link":"https://markwisdomreeves.github.io/user_interactive_form.github.io/",
-            "github_link":"https://github.com/markwisdomreeves/-teamtreehouse_unit_3_project",
+            "id": 6,
+            "project_name":"Employee Directory",
+            "description":"This App is use to display a randon user from a randon user Api",
+            "technologies":["HTML5","CSS3", "JQUERY", "JAVASCRPT", "FETCH API"],
+            "live_link":"https://markwisdomreeves.github.io/ramdom_api_project.github.io/",
+            "github_link":"https://github.com/markwisdomreeves/public_api_request-v1--unit-5-project",
             "image_urls": [
-                "/static/images/form1.jpg",
-                "/static/images/form2.jpg",
-                "/static/images/form3.jpg",
-                "/static/images/form4.jpg"
-            ]
-        },
-        {
-            "id": 4,
-            "project_name":"User Pagination Page",
-            "description":"This project has a pagination links and a search form input",
-            "technologies":["HTML5","CSS3", "JQUERY", "JAVASCRPT"],
-            "live_link":"https://markwisdomreeves.github.io/pagination_search.github.io/#",
-            "github_link":"https://github.com/markwisdomreeves/teamtreehouse-project--2",
-            "image_urls": [
-                "/static/images/pagination1.png",
-                "/static/images/pagination2.png",
-                "/static/images/pagination3.png",
-                "/static/images/pagination4.jpg"
+                "/static/images/employee_directory1.png",
+                "/static/images/employee_directory2.png",
+                "/static/images/employee_directory3.png",
+                "/static/images/employee_directory4.png"
             ]
         }
-    ]
+    ]       
 }
