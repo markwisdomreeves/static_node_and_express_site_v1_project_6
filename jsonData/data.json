@@ -2,7 +2,7 @@
     "projects": [
         {
             "id": 1,
-            "project_name":"E-commerce phone store",
+            "project_name":"E-commerce store",
             "description":"This is an online phone store Application",
             "technologies":["REACT.JS", "CSS3", "STYLED COMPONENT"],
             "live_link":"https://react-e-commerce-app-1.netlify.com/",

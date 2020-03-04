@@ -1,6 +1,6 @@
 
 // Intro variables
-const texts = ['Full Stack Developer', 'Computer Technician'];
+const texts = ['Full Stack Developer', 'Computer Engineer'];
 let count = 0;
 let index = 0;
 let currentText = '';
