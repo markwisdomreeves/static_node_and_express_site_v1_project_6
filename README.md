@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # static node and express site - v1 - Full Stack JavaScript Techdegree project #6 - Mark Wisdom Reeves
 
@@ -80,3 +81,8 @@ Note: Consider adding a target attribute set to _blank on the a tags for the liv
     To really make this project your own, you should customize the CSS following the suggestions in the Extra Credit section at the bottom of this page.
 
 
+=======
+# This is a static node express site project - 6
+# In this project, I used Html, Css, node.js, express.js and pug.js to built a static portfolio site.
+# I also implement a typeWriting or typing with pure javaScript.
+>>>>>>> 5f9ec8d7900906decb8249593c00f2a254632cdf
