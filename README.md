@@ -11,8 +11,7 @@
 
 # Below are the Project Instructions:
  
-# Before starting this project, you should have
-    -a basic understanding of Node.js, Express, and Pug.
+# Before starting this project, you should have a basic understanding of Node.js, Express.js, and Pug.js.
 
 # Initialize your project
     -Open the command line, navigate to your project, and run the npm init command to set up your package.json file.
@@ -35,7 +34,7 @@
 
 # Add your project data to your directory
     -Create a data.json file at the root of your directory
-    -The recommended structure for your JSON is to create an object literal that contains a single property called projects. The value of projects is an array containing an object for each project you wish to include in your portfolio.
+    -The recommended structure for your JSON is to create an object literal that contains a single property called projects. The value   of projects is an array containing an object for each project you wish to include in your portfolio.
 
 # Each project object should contain the following properties:
     -id - give each project a unique id, which can just be a single digit number starting at 0 for the first project, 1 for the second project, etc.
