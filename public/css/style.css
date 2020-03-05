@@ -69,10 +69,11 @@ p{
 }
 #about-me-page {
   font-family: 'Lobster', 'Yeon Sung';
+  font-size: 1.4em;
 }
 .about_info {
   font-family: 'Yeon Sung', 'Lobster';
-  font-size: 1.6em;
+  font-size: 1.2em;
 }
 .skills-title {
   font-family: 'Lobster', 'Yeon Sung';
