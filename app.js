@@ -24,14 +24,14 @@ app.use((req, res, next) => {
 })
 
 // internal server error - 505 server error
-app.use((err, req, res, next) =>{
+app.use((err, req, res, next) => {
     res.locals.error = err;
     res.status(err.status);
-    res.render('error');
-    console.log('Sorry user, internal server error occurred');
     console.log(err.message);
     console.log(err.stack);
-    console.log(err.status);   
+    console.log(err.status);
+    res.render('error');
+    console.log('Sorry user, internal server error occurred');   
 })
 
 
