@@ -28,7 +28,11 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
 
 // Paragraph function
+<<<<<<< HEAD
 const paraTexts = ['I love to solve a real world problems.'];
+=======
+const paraTexts = ['To Learn and solve a real world problems are my passions.'];
+>>>>>>> bbfe96f89c0ca1bd07f497638c40df5086eade0b
 let paraCount = 0;
 let paraIndex = 0;
 let paraCurrent = '';

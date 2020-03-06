@@ -36,7 +36,11 @@ p{
   text-decoration: underline;
 }
 .typing {
+<<<<<<< HEAD
   font-size: 0.7em;
+=======
+  font-size: 0.8em;
+>>>>>>> bbfe96f89c0ca1bd07f497638c40df5086eade0b
   color: lightblue;
 }
 .my_header {
@@ -69,6 +73,7 @@ p{
 }
 #about-me-page {
   font-family: 'Lobster', 'Yeon Sung';
+<<<<<<< HEAD
 }
 .about_info {
   font-family: 'Yeon Sung', 'Lobster';
@@ -81,6 +86,21 @@ p{
 #projects-contact li {
   font-family: 'Yeon Sung', 'Lobster';
   font-size: 0.9em;
+=======
+  font-size: 1.4em;
+}
+.about_info {
+  font-family: 'Yeon Sung', 'Lobster';
+  font-size: 1.2em;
+}
+.skills-title {
+  font-family: 'Lobster', 'Yeon Sung';
+  font-size: 1em;
+}
+#projects-contact li {
+  font-family: 'Yeon Sung', 'Lobster';
+  font-size: 1em;
+>>>>>>> bbfe96f89c0ca1bd07f497638c40df5086eade0b
 }
 .projects-name li {
   font-family: 'Yeon Sung', 'Lobster';
@@ -98,21 +118,28 @@ p{
   .my_header {
     font-size: 9px;
   }
+<<<<<<< HEAD
   #projects-contact li {
     font-size: 0.8em;
   }
+=======
+>>>>>>> bbfe96f89c0ca1bd07f497638c40df5086eade0b
 }
 @media(max-width: 500px) {
   .my_header {
     font-size: 10px;
   }
+<<<<<<< HEAD
   #projects-contact li {
     font-size: 0.8em;
   }
+=======
+>>>>>>> bbfe96f89c0ca1bd07f497638c40df5086eade0b
 }
 @media(max-width: 600px) {
   .my_header {
     font-size: 0.8em;
+<<<<<<< HEAD
   }
   #projects-contact li {
     font-size: 0.8em;
@@ -140,23 +167,46 @@ p{
   }
   #projects-contact li {
     font-size: 0.8em;
+=======
+  }
+}
+@media(max-width: 800px) {
+  .my_header {
+    font-size: 1em;
+  }
+}
+@media(min-width: 350px) {
+  .paraText_on_small_screen {
+    font-size: 14px;
+  }
+}
+@media(min-width: 500px) {
+  .paraText_on_small_screen {
+    font-size: 15px;
+>>>>>>> bbfe96f89c0ca1bd07f497638c40df5086eade0b
   }
 }
 @media(min-width: 600px) {
   .paraText_on_small_screen {
     font-size: 1em;
   }
+<<<<<<< HEAD
   #projects-contact li {
     font-size: 0.8em;
   }
+=======
+>>>>>>> bbfe96f89c0ca1bd07f497638c40df5086eade0b
 }
 @media(min-width: 800px) {
   .paraText_on_small_screen {
     font-size: 1.3em;
   }
+<<<<<<< HEAD
   #projects-contact li {
     font-size: 0.8em;
   }
+=======
+>>>>>>> bbfe96f89c0ca1bd07f497638c40df5086eade0b
 }
 /* End of my own style */
 

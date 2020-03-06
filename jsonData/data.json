@@ -2,8 +2,13 @@
     "projects": [
         {
             "id": 1,
+<<<<<<< HEAD
             "project_name":"Phone store",
             "description":"An online phone store Application",
+=======
+            "project_name":"E-commerce store",
+            "description":"This is an online phone store Application",
+>>>>>>> bbfe96f89c0ca1bd07f497638c40df5086eade0b
             "technologies":["REACT.JS", "CSS3", "STYLED COMPONENT"],
             "live_link":"https://react-e-commerce-app-1.netlify.com/",
             "github_link":"https://github.com/markwisdomreeves/react-e-commerce-app/tree/ecommerce-app/ecommerce-app",
@@ -17,7 +22,11 @@
         {
             "id": 2,
             "project_name":"Interactive Form",
+<<<<<<< HEAD
             "description":"User friendly Form with live validations",
+=======
+            "description":"User Info Form with live validations for all inputs",
+>>>>>>> bbfe96f89c0ca1bd07f497638c40df5086eade0b
             "technologies":["HTML5","CSS3", "JQUERY", "JAVASCRPT"],
             "live_link":"https://markwisdomreeves.github.io/user_interactive_form.github.io/",
             "github_link":"https://github.com/markwisdomreeves/-teamtreehouse_unit_3_project",
@@ -30,8 +39,13 @@
         },
         {
             "id": 3,
+<<<<<<< HEAD
             "project_name":"Pagination page",
             "description":"Pagination links and search box",
+=======
+            "project_name":"User Pagination Page",
+            "description":"This project has a pagination links and a search form input",
+>>>>>>> bbfe96f89c0ca1bd07f497638c40df5086eade0b
             "technologies":["HTML5","CSS3", "JQUERY", "JAVASCRPT"],
             "live_link":"https://markwisdomreeves.github.io/pagination_search.github.io/#",
             "github_link":"https://github.com/markwisdomreeves/teamtreehouse-project--2",
@@ -44,8 +58,13 @@
         },
         {
             "id": 4,
+<<<<<<< HEAD
             "project_name":"Cake Filter",
             "description":"This is an online cake shopping app template",
+=======
+            "project_name":"Cake Filter App",
+            "description":"This is an online cake shopping app template that allows you to Filter out a particular cake items in a list cakes",
+>>>>>>> bbfe96f89c0ca1bd07f497638c40df5086eade0b
             "technologies":["HTML5", "CSS3", "JAVASCRPT"],
             "live_link":"https://markwisdomreeves.github.io/filter-sweet-project.github.io/#",
             "github_link":"https://github.com/markwisdomreeves/filter-sweet-project.github.io",
@@ -55,6 +74,39 @@
                 "/static/images/cake_app3.jpg",
                 "/static/images/cake_app4.jpg"
             ]
+<<<<<<< HEAD
         }  
+=======
+        },
+        {
+            "id": 5,
+            "project_name":"Pharse Hunter App",
+            "description":"This Game allows a user to guest hidden Pharses from the board",
+            "technologies":["HTML5","CSS3", "JQUERY", "JAVASCRPT(OPP-JS)"],
+            "live_link":"https://markwisdomreeves.github.io/OOJSgame.github.io/",
+            "github_link":"https://github.com/markwisdomreeves/oopJS_game_v2-_-project_unit-4",
+            "image_urls": [
+                "/static/images/game1.png",
+                "/static/images/game2.png",
+                "/static/images/game3.png",
+                "/static/images/game4.png"
+
+            ]
+        },
+        {
+            "id": 6,
+            "project_name":"Employee Directory",
+            "description":"This App is use to display a randon user from a randon user Api",
+            "technologies":["HTML5","CSS3", "JQUERY", "JAVASCRPT", "FETCH API"],
+            "live_link":"https://markwisdomreeves.github.io/ramdom_api_project.github.io/",
+            "github_link":"https://github.com/markwisdomreeves/public_api_request-v1--unit-5-project",
+            "image_urls": [
+                "/static/images/employee_directory1.png",
+                "/static/images/employee_directory2.png",
+                "/static/images/employee_directory3.png",
+                "/static/images/employee_directory4.png"
+            ]
+        }
+>>>>>>> bbfe96f89c0ca1bd07f497638c40df5086eade0b
     ]       
 }
