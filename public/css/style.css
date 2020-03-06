@@ -3,24 +3,163 @@ h1,h2,h3,h4,h5,p{
   font-family: 'Merriweather', serif;
 }
 
-  h5{
+h5{
     font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
     text-transform: uppercase;
-  }
+}
 
-  h6{
+h6{
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
     text-transform: uppercase;
     font-weight: 600;
-  }
+}
 
-  p{
+p{
     font-size: 15px;
     color: #666;
+}
+
+
+
+/* my own styles */
+.background-color {
+  background: rgb(230, 228, 228);
+}
+#logo {
+  color: #f1f1f1;
+}
+#logo:hover {
+  color: gray;
+  text-decoration: underline;
+}
+.typing {
+  font-size: 0.7em;
+  color: lightblue;
+}
+.my_header {
+  font-family: 'Lobster', 'Yeon Sung';
+}
+#my-portfolio {
+  color: blue;
+  font-family: 'Yeon Sung', 'Lobster';
+}
+#my-h6 {
+  letter-spacing: 2px !important;
+  font-family: 'Yeon Sung', 'Lobster';
+  font-size: 1em;
+}
+#my-btn-error:hover,
+#my-btn-error:focus {
+  font-family: 'Yeon Sung', 'Lobster';
+  color: black;
+  border-color: brown;
+  background-color: white;
+}
+#my-btn-error {
+  /* all browsers: remove the default outline since
+      we are rolling our own focus styles */
+  outline: none;
+}
+/* Firefox: removes the inner border shown on focus */
+#my-btn-error::-moz-focus-inner {
+  border: none;
+}
+#about-me-page {
+  font-family: 'Lobster', 'Yeon Sung';
+}
+.about_info {
+  font-family: 'Yeon Sung', 'Lobster';
+  font-size: 1.4em;
+}
+.skills-title {
+  font-family: 'Lobster', 'Yeon Sung';
+  font-size: 0.9em;
+}
+#projects-contact li {
+  font-family: 'Yeon Sung', 'Lobster';
+  font-size: 0.9em;
+}
+.projects-name li {
+  font-family: 'Yeon Sung', 'Lobster';
+  font-size: 3em;
+}
+#error-msg {
+  color: red;
+  font-family: 'Yeon Sung', 'Lobster';
+}
+.error-tiltle {
+  font-family: 'Lobster', 'Yeon Sung';
+}
+
+@media(max-width: 350px) {
+  .my_header {
+    font-size: 9px;
   }
+  #projects-contact li {
+    font-size: 0.8em;
+  }
+}
+@media(max-width: 500px) {
+  .my_header {
+    font-size: 10px;
+  }
+  #projects-contact li {
+    font-size: 0.8em;
+  }
+}
+@media(max-width: 600px) {
+  .my_header {
+    font-size: 0.8em;
+  }
+  #projects-contact li {
+    font-size: 0.8em;
+  }
+}
+@media(max-width: 800px) {
+  .my_header {
+    font-size: 1em;
+  }
+  #projects-contact li {
+    font-size: 0.8em;
+  }
+}
+@media(min-width: 350px) {
+  .paraText_on_small_screen {
+    font-size: 14px;
+  }
+  #projects-contact li {
+    font-size: 0.8em;
+  }
+}
+@media(min-width: 500px) {
+  .paraText_on_small_screen {
+    font-size: 15px;
+  }
+  #projects-contact li {
+    font-size: 0.8em;
+  }
+}
+@media(min-width: 600px) {
+  .paraText_on_small_screen {
+    font-size: 1em;
+  }
+  #projects-contact li {
+    font-size: 0.8em;
+  }
+}
+@media(min-width: 800px) {
+  .paraText_on_small_screen {
+    font-size: 1.3em;
+  }
+  #projects-contact li {
+    font-size: 0.8em;
+  }
+}
+/* End of my own style */
+
 
 .round{
   border-radius: 5px;
@@ -63,12 +202,12 @@ a:hover{
   box-shadow: none !important;
 }
 
-  .portfolio-me p{
+.portfolio-me p{
     font-size: 14px;
     color: #999;
-  }
+}
 
-  .portfolio-me a{
+.portfolio-me a{
     font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 600;
     color: #555;
@@ -76,11 +215,11 @@ a:hover{
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
     text-transform: uppercase;
-  }
+}
 
-  .portfolio-me a:hover{
+.portfolio-me a:hover{
     color: #999;
-  }
+}
 
 .portfolio-breadcrumb{
   margin: 0;
@@ -88,14 +227,14 @@ a:hover{
   border-bottom: 1px solid #eaeaea;
 }
 
- .portfolio-breadcrumb a{
+.portfolio-breadcrumb a{
    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
    font-weight: 600;
    font-size: 13px;
    letter-spacing: 2.5px;
    -webkit-text-transform: uppercase;
    text-transform: uppercase;
- }
+}
 
 .portfolio-intro{
   margin: 0;
@@ -112,29 +251,29 @@ a:hover{
   padding: 10px 50px;
 }
 
-  .portfolio-index .thumbnail{
+.portfolio-index .thumbnail{
     margin-bottom: 5px;
-  }
+}
 
-  .portfolio-index a{
+.portfolio-index a{
     color: #222;
-  }
+}
 
-  .portfolio-index .cell{
+.portfolio-index .cell{
     margin-bottom: 15px;
-  }
+}
 
-    .portfolio-index .cell h5{
+.portfolio-index .cell h5{
       letter-spacing: 1px;
-    }
+}
 
 .portfolio-meta{
   padding-left: 20px;
 }
 
-  .portfolio-meta .button{
+.portfolio-meta .button{
     margin-bottom: 5px;
-  }
+}
 
 .portfolio-project p{
   border: none;
@@ -148,3 +287,4 @@ a:hover{
 .portfolio-bio{
     line-height: 25px;
 }
+

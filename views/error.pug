@@ -2,10 +2,9 @@ extends layout
 block content
 
   div.grid-container.portfolio-intro
-    h1= error.message
-    h2= error.status
-    h3= error.stack
+    h1.error-tiltle= error.message
+    h2#error-msg= error.status
+    h3#error-msg= error.stack
     <br>
-    h3 This is the wrong page (404 error)
     <br>
-    a.button.expanded(href='/') TAKE ME BACK TO THE HOMEPAGE
+    a#my-btn-error.button.expanded(href='/') TAKE ME BACK TO THE HOME PAGE
