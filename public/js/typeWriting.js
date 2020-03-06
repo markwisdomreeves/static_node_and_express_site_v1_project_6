@@ -3,8 +3,8 @@
 const texts = ['Full Stack Developer', 'Computer Engineer'];
 let count = 0;
 let index = 0;
-let currentText = '';
-let letter = '';
+let currentText;
+let letter;
 
 window.addEventListener('DOMContentLoaded', (event) => {
     // Intro function
@@ -25,18 +25,12 @@ window.addEventListener('DOMContentLoaded', (event) => {
 });
 
 
-
-
 // Paragraph function
-<<<<<<< HEAD
 const paraTexts = ['I love to solve a real world problems.'];
-=======
-const paraTexts = ['To Learn and solve a real world problems are my passions.'];
->>>>>>> bbfe96f89c0ca1bd07f497638c40df5086eade0b
 let paraCount = 0;
 let paraIndex = 0;
-let paraCurrent = '';
-let paraLetter = '';
+let paraCurrent;
+let paraLetter;
 
 window.addEventListener('DOMContentLoaded', (event) => {  
     
