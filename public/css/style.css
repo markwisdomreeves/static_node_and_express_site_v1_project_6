@@ -69,6 +69,7 @@ p{
 }
 #about-me-page {
   font-family: 'Lobster', 'Yeon Sung';
+  font-size: 1.3em;
 }
 .about_info {
   font-family: 'Yeon Sung', 'Lobster';
@@ -94,67 +95,139 @@ p{
   font-family: 'Lobster', 'Yeon Sung';
 }
 
-@media(max-width: 350px) {
+@media(max-width: 320px) {
   .my_header {
     font-size: 9px;
   }
   #projects-contact li {
+    font-size: 0.6em;
+  }
+  #about-me-page {
+    font-size: 1.1em;
+  }
+  .about_info {
+    font-size: 1.1em;
+  }
+  .projects-name li {
     font-size: 0.8em;
   }
 }
-@media(max-width: 500px) {
+@media(max-width: 360px) {
   .my_header {
     font-size: 10px;
   }
   #projects-contact li {
+    font-size: 0.6em;
+  }
+  #about-me-page {
+    font-size: 1.1em;
+  }
+  .about_info {
+    font-size: 1.1em;
+  }
+  .projects-name li {
     font-size: 0.8em;
   }
 }
-@media(max-width: 600px) {
+@media(max-width: 375px) {
   .my_header {
     font-size: 0.8em;
   }
   #projects-contact li {
+    font-size: 0.7em;
+  }
+  #about-me-page {
+    font-size: 1.1em;
+  }
+  .about_info {
+    font-size: 1.1em;
+  }
+  .projects-name li {
     font-size: 0.8em;
   }
 }
-@media(max-width: 800px) {
+@media(max-width: 414px) {
   .my_header {
     font-size: 1em;
   }
   #projects-contact li {
+    font-size: 0.7em;
+  }
+  #about-me-page {
+    font-size: 1.1em;
+  }
+  .about_info {
+    font-size: 1.1em;
+  }
+  .projects-name li {
     font-size: 0.8em;
   }
 }
-@media(min-width: 350px) {
+@media(min-width: 320px) {
   .paraText_on_small_screen {
     font-size: 14px;
   }
   #projects-contact li {
+    font-size: 0.6em;
+  }
+  #about-me-page {
+    font-size: 1.1em;
+  }
+  .about_info {
+    font-size: 1.1em;
+  }
+  .projects-name li {
     font-size: 0.8em;
   }
 }
-@media(min-width: 500px) {
+@media(min-width: 360px) {
   .paraText_on_small_screen {
     font-size: 15px;
   }
   #projects-contact li {
+    font-size: 0.6em;
+  }
+  #about-me-page {
+    font-size: 1.1em;
+  }
+  .about_info {
+    font-size: 1.1em;
+  }
+  .projects-name li {
     font-size: 0.8em;
   }
 }
-@media(min-width: 600px) {
+@media(min-width: 375px) {
   .paraText_on_small_screen {
     font-size: 1em;
   }
   #projects-contact li {
+    font-size: 0.7em;
+  }
+  #about-me-page {
+    font-size: 1.1em;
+  }
+  .about_info {
+    font-size: 1.1em;
+  }
+  .projects-name li {
     font-size: 0.8em;
   }
 }
-@media(min-width: 800px) {
+@media(min-width: 414px) {
   .paraText_on_small_screen {
     font-size: 1.3em;
   }
   #projects-contact li {
+    font-size: 0.7em;
+  }
+  #about-me-page {
+    font-size: 1.1em;
+  }
+  .about_info {
+    font-size: 1.1em;
+  }
+  .projects-name li {
     font-size: 0.8em;
   }
 }
