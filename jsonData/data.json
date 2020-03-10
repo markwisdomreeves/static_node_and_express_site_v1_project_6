@@ -16,7 +16,7 @@
         },
         {
             "id": 2,
-            "project_name":"Online store",
+            "project_name":"Online Phone store",
             "description":"This is an online phone store Application",
             "technologies":["REACT.JS", "CSS3", "STYLED COMPONENT"],
             "live_link":"https://react-e-commerce-app-1.netlify.com/",
@@ -45,7 +45,7 @@
         {
             "id": 4,
             "project_name":"Pagination page",
-            "description":"This is a web page with list of users pagination links and search box",
+            "description":"This is a web page Application that has a list of users with pagination links and a search box",
             "technologies":["HTML5","CSS3", "JQUERY", "JAVASCRPT"],
             "live_link":"https://markwisdomreeves.github.io/pagination_search.github.io/#",
             "github_link":"https://github.com/markwisdomreeves/teamtreehouse-project--2",
@@ -59,7 +59,7 @@
         {
             "id": 5,
             "project_name":"Cake Filter App",
-            "description":"This is an online shopping app template for filtering cakes",
+            "description":"This is an online shopping card template for filtering cakes",
             "technologies":["HTML5", "CSS3", "JQUERY", "JAVASCRPT"],
             "live_link":"https://markwisdomreeves.github.io/filter-sweet-project.github.io/#",
             "github_link":"https://github.com/markwisdomreeves/filter-sweet-project.github.io",

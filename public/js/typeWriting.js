@@ -20,7 +20,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
             count++;
             index = 0;
         }
-        setTimeout(typeIntro, 180);
+        setTimeout(typeIntro, 300);
     }());
 });
 
@@ -47,7 +47,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
             paraCount++;
             paraIndex = 0;
         }
-        setTimeout(introPara, 180);
+        setTimeout(introPara, 300);
     }());
 
 });
